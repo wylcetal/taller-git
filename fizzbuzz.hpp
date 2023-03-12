@@ -7,8 +7,8 @@
 inline std::string fizz_buzz (const int number) noexcept
 {
 	const std::vector<std::pair<int, std::string>> multiples {
-		std::make_pair(3, "Fizz"),
 		std::make_pair(5, "Buzz"),
+		std::make_pair(7, "Tezz"),
 	};
 	std::string result;
 
